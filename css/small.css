@@ -1,1 +1,70 @@
-@media only screen and (max-width: 650px) {}
+:root {
+    --text-color: white;
+    --normal-letter-size: 26px;
+    --header-letter-size: 1em;
+    --blue-palette-color: #012c50;
+    --green-palette-color: #b9f1da;
+    --black-palette-color: #1c2530;
+    --font-header: 'Raleway', sans-serif;
+    --font-normal-text: 'Noto Sans', sans-serif;
+}
+
+@media only screen and (max-width: 650px) {
+    /* ------------------------------header banner------------------------------------- */
+    .temple-banner {
+        background-color: #345673;
+    }
+    .temple-banner img {
+        display: none;
+    }
+    .call-action {
+        position: initial;
+        background-image: url("https://images.unsplash.com/photo-1445991842772-097fea258e7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+        background-size: cover;
+    }
+    #banner-p1 {
+        margin: 1em 0 0 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.288);
+    }
+    #banner-p2 {
+        margin: 0;
+        padding-bottom: .5em;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.288);
+        height: auto;
+    }
+    /* --------------------------------Main------------------------------------- */
+    /* --------------------------------Section 1------------------------------------- */
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .outer {
+        width: 100%;
+        order: 2;
+    }
+    .img-s1 {
+        width: 100%;
+    }
+    /* --------------------------------Section 2------------------------------------- */
+    .weather-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .current-weather {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid var(--green-palette-color);
+    }
+    #refresh {
+        padding: .6em 1em .5em 1em;
+        margin-left: .5em;
+    }
+    iframe {
+        width: 85%;
+    }
+    hr {
+        width: 85%;
+    }
+}

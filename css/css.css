@@ -263,9 +263,11 @@ ul li {
     margin: 1em .7em .5em 1em;
     border: none;
     border-bottom: 1px solid var(--green-palette-color);
+    outline: none;
+    color: white;
 }
 
-#form-1>button {
+.weather-buttons button {
     padding: .5em 1em .5em 1em;
     background-color: var(--green-palette-color);
     font-weight: bold;

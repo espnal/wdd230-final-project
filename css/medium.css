@@ -1,0 +1,71 @@
+@media only screen and (max-width: 990px) {
+    /* ------------------------------header nav bar------------------------------------- */
+    #hamburger {
+        display: initial;
+        float: left;
+        font-size: 26px;
+        margin-right: 1.5em;
+        color: var(--green-palette-color);
+        cursor: pointer;
+    }
+    #menu {
+        display: none;
+    }
+    #menu.open {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .img-nav {
+        display: grid;
+        grid-template-columns: repeat(8, auto);
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .img-nav img {
+        grid-column: 4/6;
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .ul-x {
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.123);
+    }
+    ul li {
+        display: block;
+    }
+    .cont-icons {
+        height: 40px;
+        margin-top: .5em;
+    }
+    /* ------------------------------header banner------------------------------------- */
+    #banner-p1 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    #banner-p2 {
+        font-size: 1rem;
+    }
+    /* --------------------------------Main------------------------------------- */
+    /* --------------------------------Section 1------------------------------------- */
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .outer {
+        margin: 0;
+        width: 50%;
+        font-size: 1rem;
+        height: auto;
+        padding: 1.5em;
+    }
+    .img-s1 {
+        width: 50%;
+    }
+}

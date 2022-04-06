@@ -423,3 +423,29 @@ iframe {
     color: var(--green-palette-color);
     margin-top: 1em;
 }
+
+
+/* -------------------------temples/-banner---------- */
+
+.call-action-temple {
+    position: absolute;
+    z-index: 1;
+    width: 900px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#banner-p1-temple {
+    font-size: 4rem;
+    color: #ffff;
+    font-style: italic;
+    font-family: var(--font-header);
+}
+
+#banner-p2-temple {
+    font-size: 1rem;
+    color: #ffff;
+    font-style: italic;
+    float: left;
+    font-family: var(--font-header);
+}

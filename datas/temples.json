@@ -1,0 +1,47 @@
+{
+    "temples": [{
+            "name": "",
+            "address": "",
+            "phonenumber": "",
+            "img": "",
+            "history": "",
+            "services": "",
+            "ordinance-schedule": "",
+            "session schedule": "",
+            "temple-closure-schedule": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phonenumber": "",
+            "img": "",
+            "history": "",
+            "services": "",
+            "ordinance-schedule": "",
+            "session schedule": "",
+            "temple-closure-schedule": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phonenumber": "",
+            "img": "",
+            "history": "",
+            "services": "",
+            "ordinance-schedule": "",
+            "session schedule": "",
+            "temple-closure-schedule": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phonenumber": "",
+            "img": "",
+            "history": "",
+            "services": "",
+            "ordinance-schedule": "",
+            "session schedule": "",
+            "temple-closure-schedule": ""
+        }
+    ]
+}

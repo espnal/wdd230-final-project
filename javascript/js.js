@@ -1,14 +1,20 @@
 const myKey = "318b4d20506cf8ad502829d2accf0043"
 const url = `https://api.openweathermap.org/data/2.5/weather?q=Provo&units=imperial&appid=${myKey}`;
-
+// toggle the hamburger----------------------------------------------
 function toggleMenu() {
     document.getElementById("menu").classList.toggle("open");
 }
 
 const x = document.getElementById("hamburger");
 x.onclick = toggleMenu;
+// ----------------------------------------------------------------------
 
+// Last Modification ----------------------------------------
+const field = document.querySelector(".time");
 
+field.innerHTML = `Last Modification: ${document.lastModified}`;
+
+// -----------------------------------------------------------
 fetch(url)
     .then((response) => response.json())
     .then((jsonObject) => {

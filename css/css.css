@@ -449,3 +449,81 @@ iframe {
     float: left;
     font-family: var(--font-header);
 }
+
+
+/* --------------------------------Main------------------------------------- */
+
+.content-temples {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
+.individual-temple {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 0 1em 0;
+    background-color: var(--black-palette-color);
+    border-radius: 10px;
+}
+
+.individual-temple img {
+    width: 300px;
+}
+
+.individual-temple h2 {
+    padding: .5em;
+    color: var(--green-palette-color);
+}
+
+.individual-content p {
+    color: white;
+    margin-top: .5em;
+}
+
+.individual-content {
+    padding: 1em;
+}
+
+#like {
+    float: right;
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+}
+
+#like:active {
+    color: rgb(94, 21, 21);
+    transition: 0.2s;
+}
+
+.content-reservation {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.entries-form label {
+    display: block;
+}
+
+.form-label>input {
+    display: block;
+}
+
+.r-description {
+    display: block;
+}

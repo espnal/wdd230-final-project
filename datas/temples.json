@@ -1,47 +1,47 @@
 {
     "temples": [{
-            "name": "",
-            "address": "",
-            "phonenumber": "",
-            "img": "",
-            "history": "",
-            "services": "",
-            "ordinance-schedule": "",
-            "session schedule": "",
-            "temple-closure-schedule": ""
+            "name": "Santo Domingo",
+            "address": "F39M+42R, Av Simón Bolívar 825, Santo Domingo 10106",
+            "phonenumber": "+18097312000",
+            "imgTemple": "images/santo-domingo.jpg",
+            "history": "The Santo Domingo Temple, Dominican Republic, is one of the temples built and operated by the Church of Jesus Christ of Latter-day Saints, the 99th built by the church and the only one built in the Caribbean Islands, located in Los Robles, south of Santo Domingo, the capital of the Dominican Republic",
+            "services": "Baustimum, Sealings, Initiations, Endowment",
+            "ordinanceSchedule": "7:00 am, 8:00am, 9:00am, 10:00am, 11:00am",
+            "sessionSchedule": "8:00am, 9:00am, and 3:00pm, 4:00pm, 6:00pm, 7:00pm",
+            "templeClosureSchedule": "Monday to Saturday at 8:00 pm"
         },
         {
-            "name": "",
-            "address": "",
-            "phonenumber": "",
-            "img": "",
-            "history": "",
-            "services": "",
-            "ordinance-schedule": "",
-            "session schedule": "",
-            "temple-closure-schedule": ""
+            "name": "Ciudad de Mexico",
+            "address": "Calle Paraguay 290, Partido Romero, 32177 Cd Juárez, Chih., México",
+            "phonenumber": "+526566115146",
+            "imgTemple": "images/mexicotemple_lds.jpg",
+            "history": "The Colonia Juarez Temple, Mexico, is one of the temples built and operated by the Church of Jesus Christ of Latter-day Saints, the 55th built by the church and the first of two temples in the state of Chihuahua, located in the small village of Colonia Juarez.",
+            "services": "Baustimum, Sealings, Initiations, Endowment",
+            "ordinanceSchedule": "7:00 am, 9:00am, 10:00am, 12:00am and 3:00pm, 4:00pm, 5:00pm, 6:00pm",
+            "sessionSchedule": "8:00am, 9:00am,",
+            "templeClosureSchedule": "Monday to Saturday at 7:00 pm"
         },
         {
-            "name": "",
-            "address": "",
-            "phonenumber": "",
-            "img": "",
-            "history": "",
-            "services": "",
-            "ordinance-schedule": "",
-            "session schedule": "",
-            "temple-closure-schedule": ""
+            "name": "Logan UT, USA",
+            "address": "175 N 300 E, Logan, UT 84321, Estados Unidos",
+            "phonenumber": "+14357523611",
+            "imgTemple": "images/logan.jpg",
+            "history": "The Logan City LDS temple was dedicated for church activities in six sessions on May 17, 1884, by then church president John Taylor, the only temple dedicated by Taylor, Brigham Young's successor in the LDS presidency.",
+            "services": "Baustimum, Sealings, Initiations, Endowment",
+            "ordinanceSchedule": "7:00 am, 8:00am, 9:00am, 10:00am, 11:00am",
+            "sessionSchedule": "8:00am, 9:00am,",
+            "templeClosureSchedule": "Monday to Saturday at 8:00 pm"
         },
         {
-            "name": "",
-            "address": "",
-            "phonenumber": "",
-            "img": "",
-            "history": "",
-            "services": "",
-            "ordinance-schedule": "",
-            "session schedule": "",
-            "temple-closure-schedule": ""
+            "name": "Oakland CA, USA",
+            "address": "4770 Lincoln Ave, Oakland, CA 94602, Estados Unidos",
+            "phonenumber": "+15105313200",
+            "imgTemple": "images/oakland.jpg",
+            "history": "The Oakland Temple was the first Latter-day Saint Movement temple built with five towers, inspired by sacred sites in Asia such as Angkor Wat, to reflect the diversity of San Francisco Bay Area residents.",
+            "services": "Baustimum, Sealings, Initiations, Endowment",
+            "ordinanceSchedule": "7:00 am, 8:00am, 9:00am, 10:00am, 11:00am",
+            "sessionSchedule": "8:00am, 9:00am,",
+            "templeClosureSchedule": "Monday to Saturday at 8:00 pm"
         }
     ]
 }

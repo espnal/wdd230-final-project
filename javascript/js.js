@@ -182,6 +182,7 @@ form.addEventListener("submit", e => {
 })
 
 refresh.addEventListener("click", (e) => {
-    document.querySelector("div.individual").innerHTML = "";
+        document.querySelector("div.individual").innerHTML = "";
 
-})
+    })
+    // --------------------------------temple inf------------------------------------------

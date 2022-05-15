@@ -181,8 +181,8 @@ form.addEventListener("submit", e => {
 
 })
 
-refresh.addEventListener("click", (e) => {
-        document.querySelector("div.individual").innerHTML = "";
 
+refresh.addEventListener("click", (e) => {
+        contentDiv.classList.remove("individual");
     })
     // --------------------------------temple inf------------------------------------------

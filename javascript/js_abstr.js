@@ -116,21 +116,24 @@ form.addEventListener("submit", (e) => {
 
     function choosingDay() {
         transportData().then(function(data) {
-            const contentDiv = document.querySelector(".contentdiv");
-            let array = [0, 10, 20]
-            const { city } = data;
-            if (contentDiv.children.length !== array.length) {
-                let title = document.createElement("h3");
-                title.innerHTML = `${city.name}, ${city.country}`
-                titleDiv.appendChild(title);
-                for (let i = 0; i < array.length; i++) {
-                    let x = data.list[array[i]]
-                    renderWeather(x)
+                const contentDiv = document.querySelector(".contentdiv");
+                let array = [0, 10, 20]
+                const { city } = data;
+                if (contentDiv.children.length !== array.length) {
+                    let title = document.createElement("h3");
+                    title.innerHTML = `${city.name}, ${city.country}`
+                    titleDiv.appendChild(title);
+                    for (let i = 0; i < array.length; i++) {
+                        let x = data.list[array[i]]
+                        renderWeather(x)
+                    }
                 }
-            }
-            input.value = ""
-                // console.log()
-        })
+                input.value = ""
+                    // console.log()
+            })
+            .catch(() => {
+                msg.textContent = "Please search for a valid city 😩";
+            });
     }
 
 })

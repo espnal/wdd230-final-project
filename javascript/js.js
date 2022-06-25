@@ -183,6 +183,7 @@ form.addEventListener("submit", e => {
 
 
 refresh.addEventListener("click", (e) => {
-        contentDiv.classList.remove("individual");
+        // document.querySelector('.individual').remove();
+        console.log(e.target.parentNode)
     })
     // --------------------------------temple inf------------------------------------------

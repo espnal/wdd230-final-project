@@ -129,7 +129,7 @@ ul li {
 
 .btn-call-action {
     height: 38px;
-    padding: .5em 1em .5em 1em;
+    padding: .6em 1em .2em 1em;
     background-color: var(--green-palette-color);
     width: 120px;
     border-radius: 7px;
@@ -274,8 +274,14 @@ ul li {
     font-family: var(--font-normal-text);
     border: none;
     border-radius: 5px;
-    margin-top: 1.5em;
+    margin-top: .8em;
     cursor: pointer;
+}
+
+.weather-buttons button:hover {
+    background-color: var(--blue-palette-color);
+    color: var(--green-palette-color);
+    transition: 0.3s;
 }
 
 #input-s2::placeholder {
@@ -319,8 +325,14 @@ ul li {
     padding: .5em 1em .5em 1em;
     border: none;
     border-radius: 5px;
-    margin-top: 1.7em;
+    margin-top: .8em;
     cursor: pointer;
+}
+
+#refresh:hover {
+    background-color: var(--blue-palette-color);
+    color: var(--green-palette-color);
+    transition: 0.3s;
 }
 
 
@@ -370,6 +382,7 @@ ul li {
     border-radius: 5px;
     font-weight: 700;
     margin-top: .5em;
+    cursor: pointer;
 }
 
 .btn-footer:hover {
@@ -397,6 +410,11 @@ hr {
     font-size: 2rem;
     color: var(--green-palette-color);
     margin-left: 1em;
+    cursor: pointer;
+}
+
+.social-media i:hover {
+    transform: scale(1.1);
 }
 
 .img-cierre img {

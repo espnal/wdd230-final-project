@@ -11,6 +11,10 @@
 
 @media only screen and (max-width: 650px) {
     /* ------------------------------header banner------------------------------------- */
+    .img-nav img {
+        width: 65vw;
+        margin-bottom: 7px;
+    }
     .temple-banner {
         background-color: #345673;
     }
@@ -66,5 +70,9 @@
     }
     hr {
         width: 85%;
+    }
+    .contentdiv {
+        display: flex;
+        flex-wrap: wrap;
     }
 }

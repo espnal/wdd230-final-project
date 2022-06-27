@@ -76,10 +76,11 @@ form.addEventListener("submit", (e) => {
     }
 
     function temperature(data) {
+        debugger
         let temperature = document.createElement("p")
-        let kelvin = data.main.temp.toFixed(0);
+        let kelvin = data.main.temp;
         let f = 9 / 5 * (kelvin - 273) + 32;
-        temperature.innerHTML = `Current temperature: ${f}&#8457;`
+        temperature.innerHTML = `Current temperature: ${f.toFixed(0)}&#8457;`
         return temperature
     }
 
